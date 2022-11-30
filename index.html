@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <main id="main">
+    <h1 id="title"> Amy Winehouse</h1>
+    <p id="subtitulo">Cantante,compositora e icono de estilo.</p>
+
+  <figure id="img-div">
+    <img id="image" src="https://i.pinimg.com/originals/42/af/6b/42af6b65ee35b5fb4ba6b9cd6c3255e2.jpg">
+    <figcaption id="img-caption">Hija de un vendedor y una farmacéutica, Amy Jade Winehouse nació el 14 septiembre de 1983 en Southgate, Londres, en el seno de una familia humilde. Su padre le inculcó el amor por el jazz y ella siempre tuvo claro que quería convertirse en una buena intérprete de ese género musical. Y lo iba a lograr, porque había nacido bendecida por un don de esos que no les toca a todos: una voz prodigiosa, distinta, que la llevaría hasta donde quisiera.</figcaption>
+  </figure>
+    </main>
+  <section id="tribute-info" class="discografía">
+    <h3>A continuación un repaso por la discografía de la artista,
+       ordenada por tipo y años:</h3>
+
+    <ul>
+      <li><strong>2003:</strong> Frank.</li>
+      <li><strong>2006:</strong> Back to black.</li>
+    </ul>
+    <h4>Albumes póstumos</h4>
+    <ul>
+      <li><strong>2011:</strong> Lioness: Hidden Treasures.</li>
+    </ul>
+    <blockquote cite="https://www.lanacion.com.ar/espectaculos/la-muerte-de-amy-winehouse-el-impacto-en-la-musica-nid1392301/">
+      <p>"Amy cambió la música para siempre, recuerdo haber sentido que había esperanza gracias a ella. Ella vivió jazz, ella vivió blues".</p>
+      <cite>-- Lady Gaga</cite>
+
+    </blockquote>
+
+    <p class="info-final">  Puedes encontar más información sobre la vida y obra de Amy en su sección
+      <a id="tribute-link" href="https://www.biografiasyvidas.com/biografia/w/winehouse.htm" target="_blank">de la enciclopedia biográfica en linea</a>.
+  </p>
+  </section>
+
+
+
+</body>
+</html>
+
+body{
+  display:flex;
+  flex-direction: column;
+    justify-content:space-around;
+  align-items: center;
+margin-left: auto;
+margin-right: auto;
+  width:600px;
+  border: 1px solid black ;
+  background: rgb(255,228,196,80);
+
+}
+h1{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: auto;
+
+}
+main{
+  text-align: center;
+  margin-top: auto;
+  background-color: #FFE4C4;
+}
+#subtitulo{
+  font-family: Playfair Display ;
+  font-style: italic;
+  font-size: 17px;
+}
+#img-caption{
+
+  margin-top:10px;
+  font-family: Playfair Display ;
+  text-align: justify;
+  font-size: 14px;
+
+
+}
+
+img{
+  width: 200px;
+
+
+
+}
+#tribute-info{
+
+  background: rgb(255,228,196);
+  background: linear-gradient( rgba(255,228,196,1) 0%, rgba(208,184,155,1) 38%, rgba(40,4,4,1) 100%);
+
+  font-family: Playfair Display ;
+
+  padding-bottom: 100px;
+
+}
+
+h3{
+  font-size: 17px;
+margin-left: 100px;
+margin-right: 100px;
+  text-align: center;
+  margin-bottom: auto;
+
+  font-family: Playfair Display ;
+  font-style: italic;
+}
+ul{
+
+  list-style-position: inside;
+  text-align: left;
+
+
+}
+
+h4{
+  text-align: left;
+margin-left:50px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+
+blockquote{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid black ;
+  font-style: italic;
+  font-size: 20px;
+  background-color:#FFE4C4;
+  text-align: center;
+
+}
+.info-final{  font-size: 17px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: auto;
+
+
+}
+
+#tribute-link{
+  color:#FFE4C4;
+  font-style: italic;
+
+
+}
